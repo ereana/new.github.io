@@ -26,7 +26,7 @@
       body{ background: var(--Gray-6, #F2F2F2);}
     .accordion-button{color: var(--Black, #101010);
 font-family: Playfair Display;
-font-size: 5vw;
+font-size: 5vw ;
 font-weight: 400;
 line-height: 100%; }
 .accordion-body{color: var(--Gray-6, #F2F2F2);
@@ -56,7 +56,7 @@ font-size: 2.4vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top: 30%;
+margin-top: 24%;
 margin-left: 30%;
 }
 .text21{
@@ -87,6 +87,17 @@ font-style: normal;
 font-weight: 400;
 line-height: 2vw; 
 }
+
+.text1{
+color: var(--Black, #101010);
+font-family: Playfair Display
+;font-size: 5vw; 
+font-weight: 400;
+line-height: 100%;
+        flex-shrink: 0;
+        margin-left: 2%;
+        margin-top: 4%;
+}
 .one{
   margin-left: 50%;
   margin-top: 4%;
@@ -116,7 +127,7 @@ body {
   font-family: DM Sans;
 }
 </style>
-<div class="container" style="max-width: 1756px;" >
+<div class="container" style="max-width: 1756px;">
 
   <header>
     <div class="collapse" id="collapseExample">
@@ -202,8 +213,7 @@ body {
     </div>
   </div>
 </div>
-<p class="text1 col-sm" style="color: var(--Black, #101010);font-family: Playfair Display;font-size: 5vw; font-weight: 400;line-height: 100%;
-        flex-shrink: 0;margin-left: 2%;margin-top: 4%;">The quick brown <br> fox jumps over the <br> lazy dog.</p>
+<p class="text1 col-sm" >The quick brown <br> fox jumps over the <br> lazy dog.</p>
 <p class="text2 col-sm" style="line-height: normal;">Lorem ipsum dolor sit amet, consectetur adipi <br> scing elit. Cras ultrices, augue quis ege stas <br> pretium, diam tellus consectetur ligula, nec <br> aliquet mauris.</p>       
     <div class="one" >
         <p class="text3 col-sm">Lorem ipsum dolor sit amet.</p>
@@ -365,7 +375,7 @@ margin-left: 10%;
 
 
 
-@media (max-width:768px){
+@media (max-width:800px){
   .text2,.text21{
     margin-top: 14%;
     font-size: 2vw;
@@ -399,32 +409,37 @@ font-size: 1.6vw;
   .btn{
     width: 120%;
   }
+  .text1{
+font-size: 6vw;
+  }
   .one{
     margin-top: 1%;
-    margin-right: 3%;
-    margin-left: 40%;
+   
+    margin-left: 26%;
   }
   .accordion-body{
-    font-size: 1.8vw;
-  }
-  .text3{
-    font-size: 2vw;
-  }
-  .text4{
-    font-size: 1.9vw;
-    line-height: 2.4vw;
-  }
-  .text2,.text21{
-    font-size: 2.6vw;
-    margin-top: 10%;
-  }
-  
-  
-  .ssr{
     font-size: 2.4vw;
   }
+  .text3{
+    font-size: 2.6vw;
+  }
+  .text4{
+    font-size: 2.5vw;
+    line-height: 2.8vw;
+  }
+  .text2,.text21{
+    font-size: 3vw;
+    margin-top: 10%;
+  }
+  .text2{
+    margin-left: 10%;
+  }
+  
+  .ssr{
+    font-size: 2.8vw;
+  }
   .sr{
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
   
   /*---------------------------------------------------------*/

@@ -31,11 +31,16 @@ font-weight: 400;
 line-height: 100%; }
 .accordion-body{color: var(--Gray-6, #F2F2F2);
 font-family: DM Sans;
-font-size: 1.4vw;
+font-size: 1.2vw;
 font-style: normal;
 font-weight: 400;
 line-height: 153.7%; 
-margin-left: 30%;}
+/*margin-left: 20%;*/
+padding-right: 4%;
+padding-left: 20%;
+padding-top: 5%;
+padding-bottom: 5%;
+}
 .accordion-collapse {
   background: var(--Black, #101010);
 }
@@ -51,26 +56,41 @@ font-size: 2.4vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top: 10%;
+margin-top: 30%;
 margin-left: 30%;
+}
+.text21{
+  color: var(--Black, #101010);
+font-family: Playfair Display;
+font-size: 2.4vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10%;
+padding-bottom: 2%;
+/*margin-left: 10%;*/
 }
 .text3{
   color: var(--Black, #101010);
 font-family: DM Sans;
-font-size: 2vw;
+font-size: 1.6vw;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-top: 6%;
 }
 .text4{
   color: var(--Black, #101010);
 font-family: DM Sans;
-font-size: 2vw;
+font-size: 1.4vw;
 font-style: normal;
 font-weight: 400;
-line-height: 36px; 
+line-height: 2vw; 
 }
-
+.one{
+  margin-left: 50%;
+  margin-top: 4%;
+}
 body {
   --bs-body-font-family: var(--bs-font-monospace);
   --bs-body-line-height: 1.4;
@@ -162,7 +182,7 @@ body {
   </header>
  
 
-<button type="button" style="width: 70%;margin-top: 6%;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" style="width: 60%;margin-top: 6%;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
 </button>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -184,8 +204,8 @@ body {
 </div>
 <p class="text1 col-sm" style="color: var(--Black, #101010);font-family: Playfair Display;font-size: 5vw; font-weight: 400;line-height: 100%;
         flex-shrink: 0;margin-left: 2%;margin-top: 4%;">The quick brown <br> fox jumps over the <br> lazy dog.</p>
-<p class="text2 col-sm">Lorem ipsum dolor sit amet, consectetur adipi <br> scing elit. Cras ultrices, augue quis ege stas <br> pretium, diam tellus consectetur ligula, nec <br> aliquet mauris.</p>       
-    <div class="one" style="margin-left: 46%; margin-top: 4%;">
+<p class="text2 col-sm" style="line-height: normal;">Lorem ipsum dolor sit amet, consectetur adipi <br> scing elit. Cras ultrices, augue quis ege stas <br> pretium, diam tellus consectetur ligula, nec <br> aliquet mauris.</p>       
+    <div class="one" >
         <p class="text3 col-sm">Lorem ipsum dolor sit amet.</p>
         <p class="text4 col-sm">
           Lorem ipsum dolor sit amet, consectetur adipi scing <br> elit. Cras ultrices, augue quis ege stas pretium, diam <br> tellus consectetur ligula, nec aliquet mauris.</p>
@@ -242,8 +262,8 @@ body {
           </div>
         </div>
       </div>
-<div class="three">
-  <p class="text2">Lorem ipsum dolor sit amet, consectetur adipi <br> scing elit. Cras ultrices, augue quis ege stas <br> pretium, diam tellus consectetur ligula, nec <br> aliquet mauris.</p>
+<div class="three" style="margin-left: 2%;">
+  <p class="text21">Lorem ipsum dolor sit amet, consectetur adipi <br> scing elit. Cras ultrices, augue quis ege stas <br> pretium, diam tellus consectetur ligula, nec <br> aliquet mauris.</p>
   <p class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Cras ultrices, augue quis egestas pretium, diam tellus <br> consectetur ligula, nec aliquet mauris sem non dui. <br> Vestibulum id sodales massa. Sed venenatis quam non <br> felis rhoncus tempor. 
 <br><br>
     Nulla condimentum ac urna quis tempus. In vel justo in <br> urna ullamcorper blandit. Curabitur vitae iaculis eros, ac <br> dictum sapien. Nulla sit amet lectus sit amet nunc <br> consequat molestie eu vel orci. Donec vitae fringilla <br> eros, egestas cursus dolor. Suspendisse potenti. Etiam <br> pretium arcu vitae placerat commodo. Pellentesque <br> non leo vitae nunc dictum interdum id ac sapien. </p>
@@ -251,7 +271,7 @@ body {
 
 
 
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators" class="carousel slide" style="padding-top: 8%;">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -289,7 +309,7 @@ body {
   .ssr{
     color: #FAEB8C;
 font-family: Playfair Display;
-font-size: 2.8vw;
+font-size: 1.6vw;
 font-style: normal;
 font-weight: 400;
 line-height: 128.7%; 
@@ -297,19 +317,19 @@ line-height: 128.7%;
   .sr{
     color: var(--Gray-6, #F2F2F2);
 font-family: DM Sans;
-font-size: 1.8vw;
+font-size: 1.2vw;
 font-style: normal;
 font-weight: 400;
 line-height: 128.7%;
   }
   .st1{
-    margin-left: 10%;
+    margin-left: 12%;
   }
   .logo{
     width: 20%;
   }
   .btn{
-    width: 60%;
+    width: 56%;
     margin-left: 20%;
     
     background-color: #101010;
@@ -341,45 +361,78 @@ margin-left: 10%;
 .icons{
   width: 80%;
 }
-@media (max-width:748px){
-  .text4{
-    line-height: 20px;
-  }
-  .accordion-body{
+/*--------------------------------------------------------*/
+
+
+
+@media (max-width:768px){
+  .text2,.text21{
+    margin-top: 14%;
     font-size: 2vw;
   }
+  .text3{
+font-size: 1.6vw;
+  }
+  .text4{
+    font-size: 1.4vw;
+    line-height: 2vw;
+  }
+  .accordion-body{
+    font-size: 1.4vw;
+  }
 .btn{
-  width: 100%;
+  width: 90%;
   
 }
 .seti{
   padding-top: 5%;
 }
-.text3,.text4{
-  font-size: 2.4vw;
+.ssr{
+  font-size: 1.8vw;
 }
 .sr{
- font-size: 2.2vw;
+  line-height: 2%;
+ font-size: 1.4vw;
 }
 }
-@media (max-width:408px){
+@media (max-width:516px){
   .btn{
     width: 120%;
   }
-  .text3,.text4{
-    font-size: 2.8vw;
-  }
-  .text2{
-    font-size: 3.2vw;
+  .one{
+    margin-top: 1%;
+    margin-right: 3%;
+    margin-left: 40%;
   }
   .accordion-body{
-    font-size: 2.6vw;
+    font-size: 1.8vw;
   }
+  .text3{
+    font-size: 2vw;
+  }
+  .text4{
+    font-size: 1.9vw;
+    line-height: 2.4vw;
+  }
+  .text2,.text21{
+    font-size: 2.6vw;
+    margin-top: 10%;
+  }
+  
+  
+  .ssr{
+    font-size: 2.4vw;
+  }
+  .sr{
+    font-size: 1.5vw;
+  }
+  
+  /*---------------------------------------------------------*/
 }
 </style>
 
 
-<form style="margin-top: 6%;margin-bottom: 6%;padding-left: 2%;padding-right: 2%;" class="row g-3">
+<form style="margin-top: 6%;margin-bottom: 6%;padding-left: 4%;padding-right: 4%;" class="row g-3">
   <div class="col-md-4">
     <label for="validationServer01" class="form-label">First name</label>
     <input type="text" class="form-control is-valid" id="validationServer01" value="Help" required>
@@ -440,7 +493,7 @@ margin-left: 10%;
     </div>
   </div>
   <div class="col-12">
-    <button style="width: 70%;" class="btn btn-primary" type="submit">Submit form</button>
+    <button style="width: 60%;" class="btn btn-primary" type="submit">Submit form</button>
   </div>
 </form>
 
